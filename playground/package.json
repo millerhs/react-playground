@@ -1,7 +1,7 @@
 {
   "name": "playground",
   "version": "0.1.0",
-  "homepage": "https://milhunt.github.io/react-playground",
+  "homepage": "https://millerhs.github.io/react-playground",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
