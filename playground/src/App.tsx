@@ -4,7 +4,7 @@ import Grid from '@mui/material/Grid';
 import Tab from '@mui/material/Tab';
 import Tabs from '@mui/material/Tabs';
 import React from 'react';
-import ChatContainer from './components/ChatContainer';
+import ChatContainer from './components/chat/ChatContainer';
 
 enum TabOptions {
   Chat = 'Chat',
