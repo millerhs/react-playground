@@ -25,7 +25,9 @@
     "react-rnd": "^10.3.5",
     "react-scripts": "5.0.0",
     "typescript": "^4.6.2",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "devextreme": "^21.2.4",
+    "devextreme-react": "^21.2.4"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -52,5 +54,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "devextreme-themebuilder": "^21.2.4"
   }
 }

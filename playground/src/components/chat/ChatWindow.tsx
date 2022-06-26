@@ -28,6 +28,8 @@ type Message = {
   source: MessageSource;
 };
 
+//TODO
+
 const ChatWindow = (props: { handleClose: Function }) => {
   const [selectedEntity, setSelectedEntity] = React.useState<string>('1');
   const [messages, setMessages] = React.useState<Message[]>([]);
