@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/react-playground/static/css/main.e6c13ad2.css",
-    "main.js": "/react-playground/static/js/main.5cc47770.js",
+    "main.css": "/react-playground/static/css/main.73cc07a4.css",
+    "main.js": "/react-playground/static/js/main.6c619632.js",
+    "static/media/dxicons.ttf": "/react-playground/static/media/dxicons.4d3cea0a08c2038308fc.ttf",
+    "static/media/dxicons.woff": "/react-playground/static/media/dxicons.d5288d8f61ece0a2f2ab.woff",
+    "static/media/dxicons.woff2": "/react-playground/static/media/dxicons.e4acc9c2c884e566ddc4.woff2",
     "index.html": "/react-playground/index.html",
-    "main.e6c13ad2.css.map": "/react-playground/static/css/main.e6c13ad2.css.map",
-    "main.5cc47770.js.map": "/react-playground/static/js/main.5cc47770.js.map"
+    "main.73cc07a4.css.map": "/react-playground/static/css/main.73cc07a4.css.map",
+    "main.6c619632.js.map": "/react-playground/static/js/main.6c619632.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.5cc47770.js"
+    "static/css/main.73cc07a4.css",
+    "static/js/main.6c619632.js"
   ]
 }
