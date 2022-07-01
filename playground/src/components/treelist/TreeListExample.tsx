@@ -1,6 +1,7 @@
 import TreeList, {
   Column,
   ColumnChooser,
+  ColumnFixing,
   Item,
   SearchPanel,
   Selection,
