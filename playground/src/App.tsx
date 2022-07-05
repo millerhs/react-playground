@@ -6,6 +6,7 @@ import ChatContainer from './components/chat/ChatContainer';
 import Home from './components/Home';
 import AnchorTest from './components/anchor/AnchorTest';
 import { AppBar, Button, ButtonGroup, Grid, Toolbar } from '@mui/material';
+import TableTest from './components/datatable/TableTest';
 
 const App = () => {
   return (
@@ -30,6 +31,9 @@ const App = () => {
               <Button component={Link} to='/anchor' sx={{ color: 'white' }}>
                 Anchor
               </Button>
+              <Button component={Link} to='/datatable' sx={{ color: 'white' }}>
+                Data Table
+              </Button>
             </ButtonGroup>
           </Toolbar>
         </AppBar>
@@ -39,6 +43,7 @@ const App = () => {
           <Route path='/chat' element={<ChatContainer />} />
           <Route path='/tree' element={<TreeListExample />} />
           <Route path='/anchor' element={<AnchorTest />} />
+          <Route path='/datatable' element={<TableTest />} />
         </Routes>
       </Grid>
     </BrowserRouter>
