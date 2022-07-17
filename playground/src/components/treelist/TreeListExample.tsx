@@ -7,7 +7,7 @@ import TreeList, {
   Selection,
   StateStoring,
   Toolbar,
-} from 'devextreme-react/tree-list';
+} from 'devextreme-react/ui/tree-list';
 import React from 'react';
 import { data } from './Data';
 

@@ -4,9 +4,9 @@ import TreeListExample from './components/treelist/TreeListExample';
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import ChatContainer from './components/chat/ChatContainer';
 import Home from './components/Home';
-import AnchorTest from './components/anchor/AnchorTest';
+import AnchorTest from './components/AnchorTest';
 import { AppBar, Button, ButtonGroup, Grid, Toolbar } from '@mui/material';
-import TableTest from './components/datatable/TableTest';
+import TableTest from './components/TableTest';
 
 const App = () => {
   return (

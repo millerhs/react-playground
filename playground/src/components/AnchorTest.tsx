@@ -20,7 +20,9 @@ enum TabOptions {
 const AnchorTest = () => {
   const location: Location = useLocation();
   const navigate: NavigateFunction = useNavigate();
-  const [selectedTab, setSelectedTab] = React.useState(location.hash);
+  const [selectedTab, setSelectedTab] = React.useState(
+    location.hash ?? TabOptions.First
+  );
 
   const handleChange = (event: React.SyntheticEvent, newValue: string) => {
     navigate(`${newValue}`);
