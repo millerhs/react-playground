@@ -7,6 +7,7 @@ import Home from './components/Home';
 import AnchorTest from './components/AnchorTest';
 import { AppBar, Button, ButtonGroup, Grid, Toolbar } from '@mui/material';
 import TableTest from './components/TableTest';
+import FormTest from './components/FormTest';
 
 const App = () => {
   return (
@@ -34,6 +35,9 @@ const App = () => {
               <Button component={Link} to='/datatable' sx={{ color: 'white' }}>
                 Data Table
               </Button>
+              <Button component={Link} to='/form' sx={{ color: 'white' }}>
+                Form
+              </Button>
             </ButtonGroup>
           </Toolbar>
         </AppBar>
@@ -44,6 +48,7 @@ const App = () => {
           <Route path='/tree' element={<TreeListExample />} />
           <Route path='/anchor' element={<AnchorTest />} />
           <Route path='/datatable' element={<TableTest />} />
+          <Route path='/form' element={<FormTest />} />
         </Routes>
       </Grid>
     </BrowserRouter>
