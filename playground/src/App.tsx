@@ -1,5 +1,5 @@
 import 'devextreme/dist/css/dx.common.css';
-import 'devextreme/dist/css/dx.light.css';
+import 'devextreme/dist/css/dx.material.blue.light.css';
 import TreeListExample from './components/treelist/TreeListExample';
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import ChatContainer from './components/chat/ChatContainer';
@@ -8,6 +8,7 @@ import AnchorTest from './components/AnchorTest';
 import { AppBar, Button, ButtonGroup, Grid, Toolbar } from '@mui/material';
 import TableTest from './components/TableTest';
 import FormTest from './components/FormTest';
+import RichTextTest from './components/RichTextText';
 
 const App = () => {
   return (
@@ -38,6 +39,9 @@ const App = () => {
               <Button component={Link} to='/form' sx={{ color: 'white' }}>
                 Form
               </Button>
+              <Button component={Link} to='/rte' sx={{ color: 'white' }}>
+                RTE
+              </Button>
             </ButtonGroup>
           </Toolbar>
         </AppBar>
@@ -49,6 +53,7 @@ const App = () => {
           <Route path='/anchor' element={<AnchorTest />} />
           <Route path='/datatable' element={<TableTest />} />
           <Route path='/form' element={<FormTest />} />
+          <Route path='/rte' element={<RichTextTest />} />
         </Routes>
       </Grid>
     </BrowserRouter>
