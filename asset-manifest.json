@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-playground/static/css/main.222b3aab.css",
-    "main.js": "/react-playground/static/js/main.2c76e0b8.js",
+    "main.css": "/react-playground/static/css/main.73778dc3.css",
+    "main.js": "/react-playground/static/js/main.216eff2e.js",
     "static/media/Roboto-500.ttf": "/react-playground/static/media/Roboto-500.0fcd45fbfc419c42c8b9.ttf",
     "static/media/Roboto-400.ttf": "/react-playground/static/media/Roboto-400.6bede58e856278b0f8f1.ttf",
     "static/media/Roboto-700.ttf": "/react-playground/static/media/Roboto-700.17451a4c1cd55e33ac57.ttf",
@@ -18,11 +18,11 @@
     "static/media/dxiconsmaterial.woff": "/react-playground/static/media/dxiconsmaterial.32d328282b0b8b43e5d7.woff",
     "static/media/dxiconsmaterial.woff2": "/react-playground/static/media/dxiconsmaterial.bc5a06be4e18440c6f27.woff2",
     "index.html": "/react-playground/index.html",
-    "main.222b3aab.css.map": "/react-playground/static/css/main.222b3aab.css.map",
-    "main.2c76e0b8.js.map": "/react-playground/static/js/main.2c76e0b8.js.map"
+    "main.73778dc3.css.map": "/react-playground/static/css/main.73778dc3.css.map",
+    "main.216eff2e.js.map": "/react-playground/static/js/main.216eff2e.js.map"
   },
   "entrypoints": [
-    "static/css/main.222b3aab.css",
-    "static/js/main.2c76e0b8.js"
+    "static/css/main.73778dc3.css",
+    "static/js/main.216eff2e.js"
   ]
 }
