@@ -13,7 +13,7 @@ import RichTextTest from './components/RichTextText';
 const App = () => {
   return (
     <BrowserRouter basename='/react-playground'>
-      <Grid container direction='column'>
+      <Grid container direction='column' sx={{ height: '100%' }}>
         <AppBar position='static'>
           <Toolbar>
             <ButtonGroup
